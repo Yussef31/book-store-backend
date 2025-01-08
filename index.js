@@ -10,7 +10,7 @@ require('dotenv').config()
 //middleware
 app.use(express.json());
 app.use(cors({
-    origin: 'https://book-store-frontend-6pbi.vercel.app/',
+    origin: 'https://book-store-frontend-6pbi.vercel.app',
     credentials : true
 }));
 
